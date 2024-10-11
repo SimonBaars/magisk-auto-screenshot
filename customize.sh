@@ -12,8 +12,8 @@
 # Uncomment DYNLIB if you want libs installed to vendor for oreo+ and system for anything older
 # Uncomment PARTOVER if you have a workaround in place for extra partitions in regular magisk install (can mount them yourself - you will need to do this each boot as well). If unsure, keep commented
 # Uncomment PARTITIONS and list additional partitions you will be modifying (other than system and vendor), for example: PARTITIONS="/odm /product /system_ext"
-#MINAPI=21
-#MAXAPI=25
+MINAPI=1
+MAXAPI=999
 #DYNLIB=true
 #PARTOVER=true
 #PARTITIONS=""
@@ -21,18 +21,6 @@
 ##########################################################################################
 # Replace list
 ##########################################################################################
-
-# List all directories you want to directly replace in the system
-# Check the documentations for more info why you would need this
-
-# Construct your list in the following format
-# This is an example
-REPLACE_EXAMPLE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
 
 # Construct your own list here
 REPLACE="

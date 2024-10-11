@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v3.7
-versionCode=19
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=auto-screenshot
+name=Auto Screenshot
+version=v1.0
+versionCode=1
+author=SimonBaars
+description=Takes screenshots every 10sec while the screen is on, storing them in the Screenshots folder
+updateJson=https://raw.githubusercontent.com/SimonBaars/magisk-auto-screenshot/master/update.json

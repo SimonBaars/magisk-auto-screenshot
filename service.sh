@@ -12,7 +12,15 @@ while true; do
     mkdir -p $DIR
 
     # Take the screenshot
-    screencap -p "$DIR/$TIME.png"
+    FILENAME="$DIR/$TIME.png"
+    screencap -p "$FILENAME"
+
+    # Check if the new file is identical to the previous one
+    if [ -f "$PREVIOUS_FILE" ] && cmp -s "$FILENAME" "$PREVIOUS_FILE"; then
+        rm "$FILENAME"
+    else
+        PREVIOUS_FILE="$FILENAME"
+    fi
 
     sleep 10
 done

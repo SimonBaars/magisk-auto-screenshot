@@ -12,4 +12,7 @@ An Android phone which runs Magisk. It should be compatible with pretty much any
 ## Installation
 Download the zip from here: https://github.com/SimonBaars/magisk-auto-screenshot/releases/tag/1.0
 
-Flash the zip using Magisk.
+Flash the zip using Magisk. Reboot when Magisks prompts you to.
+
+## How to use
+Check the `Screenshots` folder in the root of your system's storage. It should contain a screenshot for every 10 seconds you've been using your phone.

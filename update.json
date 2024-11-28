@@ -1,6 +1,6 @@
 {
   "version": "v1.0",
   "versionCode": 1,
-  "zipUrl": "https://raw.githubusercontent.com/SimonBaars/magisk-auto-screenshot/install.zip",
+  "zipUrl": "https://github.com/SimonBaars/magisk-auto-screenshot/releases/download/1.0/install.zip",
   "changelog": "https://raw.githubusercontent.com/SimonBaars/magisk-auto-screenshot/changelog.md"
 }

@@ -9,7 +9,10 @@ while true; do
 
     # Create the directory if it doesn't exist
     DIR="/sdcard/Screenshots/$YEAR/$MONTH/$DAY"
-    mkdir -p $DIR
+    if [ ! -d "$DIR" ]; then
+        mkdir -p "$DIR"
+        touch "$DIR/.nomedia"
+    fi
 
     # Take the screenshot
     FILENAME="$DIR/$TIME.png"

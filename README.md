@@ -4,7 +4,11 @@ A magisk module which takes a screenshot automatically every 10 seconds. This mo
 ## Why?
 This is part of a larger initiative to add accountability to my digital life. Additionally, it has been occasionally useful to have access to old screen states for data-loss prevention. Also, as someone with ADHD, it's good to be aware of where my time went after "zoning out". Potentially, in the age of LLMs, this is going to serve even more benefit where we can elicit help on organizing our digital lives from LLMs by giving them access to our digital history (note: always use local LLMs for this, never commercial ones!).
 
-I have a similar script running on my XFCE desktop, see: https://github.com/SimonBaars/xfce-auto-screenshot
+## Other versions
+- Windows: https://github.com/SimonBaars/windows-auto-screenshot
+- XFCE (Linux): https://github.com/SimonBaars/xfce-auto-screenshot
+- Android (Magisk): https://github.com/SimonBaars/magisk-auto-screenshot
+- Android (APK): https://github.com/SimonBaars/Android-AutoScreenshot
 
 ## Requirements
 An Android phone which runs Magisk. It should be compatible with pretty much any Android version.
